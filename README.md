@@ -34,13 +34,13 @@
 对你的 dsh 说：
 
 ```text
-安装一下这个皮肤插件：https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
+安装一下这个皮肤插件：https://github.com/0928OYX/dsh-free-skins
 ```
 
 ### 手动部署（推荐）
 
 ```sh
-git clone https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
+git clone https://github.com/0928OYX/dsh-free-skins
 cd dsh-free-skins
 node scripts/deploy.mjs desktop     # 默认部署到 desktop profile
 ```
@@ -74,9 +74,9 @@ node scripts/generate-previews.mjs    # 重新生成 preview/*.svg 宣传图
 - **皮肤 = 一个文件**：每个皮肤就是一个 `skins/<id>/definition.mjs`（配色、背景、角落装饰、粒子动画全声明式），运行 `node scripts/generate-skins.mjs` 即生成完整皮肤包（lib/、skin.json、NOTICE）。
 - **零构建依赖**：画廊插件 `skin-gallery/lib/client.js` 是手写 bundle，无任何构建链，可直接阅读与修改。
 - **可插拔接入**：通过 DSH 皮肤中心注册（`@linxin666/dsh-client-ui-skin-*` 注册表 + managed 区段互斥），不做任何侵入式改动。
-- 想贡献？欢迎提 [Issues](https://github.com/0928OYX/dash-free-skins-Owner-0928OYX/issues) 或 PR。
+- 想贡献？欢迎提 [Issues](https://github.com/0928OYX/dsh-free-skins/issues) 或 PR。
 
 ## 📬 反馈
 
-皮肤体验问题或建议请在 [Issues](https://github.com/0928OYX/dash-free-skins-Owner-0928OYX/issues) 提出。
+皮肤体验问题或建议请在 [Issues](https://github.com/0928OYX/dsh-free-skins/issues) 提出。
 

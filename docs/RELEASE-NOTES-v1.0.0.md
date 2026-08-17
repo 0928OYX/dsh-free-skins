@@ -33,7 +33,7 @@ DeepSeek Harness 界面皮肤插件首个公开版本，由 **0928OYX** 原创�
 ## 📦 安装
 
 ```sh
-git clone https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
+git clone https://github.com/0928OYX/dsh-free-skins
 cd dsh-free-skins
 node scripts/deploy.mjs desktop
 ```

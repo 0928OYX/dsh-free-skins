@@ -8,7 +8,7 @@
 ## 一键部署
 
 ```sh
-git clone https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
+git clone https://github.com/0928OYX/dsh-free-skins
 cd dsh-free-skins
 node scripts/deploy.mjs desktop     # 默认 profile 为 desktop
 ```
@@ -24,7 +24,7 @@ node scripts/deploy.mjs desktop     # 默认 profile 为 desktop
 
 ## 懒人版（对 DSH 说）
 
-> 安装一下这个皮肤插件：https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
+> 安装一下这个皮肤插件：https://github.com/0928OYX/dsh-free-skins
 
 ## 皮肤互斥与应用
 
