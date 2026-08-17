@@ -23,75 +23,196 @@ window.__ModuleLoader__.load({
   <text x="48" y="82" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#fff" letter-spacing="2">DSH</text>
 </svg>`;
 
+		const ART_MAID = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs><linearGradient id="mdwbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2a5c"/><stop offset="1" stop-color="#081433"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#mdwbg)"/>
+  <path d="M20 96c0-11 12-17 28-17s28 6 28 17z" fill="#123a7a"/>
+  <path d="M36 96v-9c0-4 4-6 8-6h4v15z" fill="#f4f0e8"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="17" ry="18" fill="#ffe4d1"/>
+  <path d="M48 14c-13 0-21 10-21 23 0 12 6 22 21 27v-9c-8-4-12-10-12-18 0-10 5-16 12-18z" fill="#2c4f8f"/>
+  <path d="M48 14c13 0 21 10 21 23 0 12-6 22-21 27v-9c8-4 12-10 12-18 0-10-5-16-12-18z" fill="#2c4f8f"/>
+  <path d="M31 33c2-13 10-19 17-19s15 6 17 19c-3-8-9-12-17-12s-14 4-17 12z" fill="#3a63a8"/>
+  <path d="M20 33c-2 3-2 6 0 9 4-2 8-2 11 0 3-3 3-7 0-10z" fill="#f4f0e8"/>
+  <path d="M76 33c2 3 2 6 0 9-4-2-8-2-11 0-3-3-3-7 0-10z" fill="#f4f0e8"/>
+  <ellipse cx="40.5" cy="47" rx="3.7" ry="5.4" fill="#1d2c55"/><ellipse cx="55.5" cy="47" rx="3.7" ry="5.4" fill="#1d2c55"/>
+  <circle cx="41.9" cy="45" r="1.5" fill="#fff"/><circle cx="56.9" cy="45" r="1.5" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#f5a9a0"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#f5a9a0"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#b96a5f" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M48 4c6 0 11 3 14 7-4 2-7 6-7 11-3-4-8-4-11 0 0-5-3-9-7-11 3-4 8-7 11-7z" fill="#f4f0e8"/>
+  <path d="M48 3c3 0 6 2 8 5-2 1-4 3-4 6-2-2-5-2-7 0 0-3-2-5-4-6 2-3 5-5 7-5z" fill="#c5a468"/>
+</svg>`;
+
 		const ART_SAKURA = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="skpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde3f0"/><stop offset="1" stop-color="#dfa6e0"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#skpr)"/>
-  <g fill="#ffffff" opacity="0.95">
-    <circle cx="48" cy="36" r="9"/><circle cx="35" cy="48" r="9"/><circle cx="61" cy="48" r="9"/><circle cx="40" cy="61" r="9"/><circle cx="56" cy="61" r="9"/>
-  </g>
-  <circle cx="48" cy="48" r="6" fill="#f7a9c8"/>
-  <circle cx="48" cy="74" r="2.4" fill="#d13656"/>
+  <defs><linearGradient id="ymbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde3f0"/><stop offset="1" stop-color="#dfa6e0"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#ymbg)"/>
+  <path d="M18 96c0-12 13-18 30-18s30 6 30 18z" fill="#fdfaf7"/>
+  <path d="M34 96v-16c0-4.5 4.5-6.5 9-6.5h6v22.5z" fill="#d13656"/>
+  <path d="M43 74l5-5 5 5-2 6h-6z" fill="#8a5bd8"/>
+  <rect x="42" y="60" width="12" height="16" rx="6" fill="#ffe2cf"/>
+  <ellipse cx="48" cy="44" rx="16" ry="17" fill="#ffe4d1"/>
+  <path d="M48 12c-15 0-24 10-24 23 0 12 7 22 24 28v-11c-9-4-14-10-14-19 0-10 6-16 14-18z" fill="#f2a0c8"/>
+  <path d="M48 12c15 0 24 10 24 23 0 12-7 22-24 28v-11c9-4 14-10 14-19 0-10-6-16-14-18z" fill="#f2a0c8"/>
+  <path d="M19 22c-5-10-1-19 8-22 1.5 8-.5 16-7.5 22z" fill="#fff6f8"/>
+  <path d="M20.5 22c-2.5-6.5-1-13 3.5-16 1 5.5-.2 11.5-3.5 15z" fill="#f0a8c8"/>
+  <path d="M77 22c5-10 1-19-8-22-1.5 8 .5 16 7.5 22z" fill="#fff6f8"/>
+  <path d="M75.5 22c2.5-6.5 1-13-3.5-16-1 5.5.2 11.5 3.5 15z" fill="#f0a8c8"/>
+  <path d="M30 33c2-12 9-19 18-19s16 7 18 19c-3.6-8-9.8-12.5-18-12.5S33.6 25 30 33z" fill="#f9c4da"/>
+  <path d="M24 31c-2-8 2-15 10-17 1.6 7 0 13-5 18z" fill="#f9c4da"/>
+  <path d="M72 31c2-8-2-15-10-17-1.6 7 0 13 5 18z" fill="#f9c4da"/>
+  <path d="M32 26c1.5-4.6 4.8-7.6 9.6-9 1.2 3.8.2 7.6-3 11.2z" fill="#fcd9e8" opacity="0.9"/>
+  <ellipse cx="40" cy="45.5" rx="4.2" ry="5.4" fill="#6d3fa8"/>
+  <ellipse cx="56" cy="45.5" rx="4.2" ry="5.4" fill="#6d3fa8"/>
+  <circle cx="41.4" cy="43.4" r="1.7" fill="#fff"/>
+  <circle cx="57.4" cy="43.4" r="1.7" fill="#fff"/>
+  <circle cx="39.2" cy="47.2" r="0.9" fill="#c9a0ef"/>
+  <circle cx="55.2" cy="47.2" r="0.9" fill="#c9a0ef"/>
+  <path d="M35.2 41.2q4.8-3 9.6 0" stroke="#4a2a63" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M51.2 41.2q4.8-3 9.6 0" stroke="#4a2a63" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M35.5 37q4.8-2.2 9.5 0" stroke="#7a4a5f" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M51 37q4.8-2.2 9.5 0" stroke="#7a4a5f" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="33.5" cy="53.5" rx="3.2" ry="1.7" fill="#f7a9b2" opacity="0.85"/>
+  <ellipse cx="62.5" cy="53.5" rx="3.2" ry="1.7" fill="#f7a9b2" opacity="0.85"/>
+  <path d="M45.5 55.5c1.6 1.5 3.4 1.5 5 0" stroke="#b96a5f" fill="none" stroke-width="1.4" stroke-linecap="round"/>
+  <circle cx="28" cy="32" r="3.6" fill="#d13656"/>
+  <path d="M28 32c-1.8-1.6-1.8-3.8 0-5.4 1.8 1.6 1.8 3.8 0 5.4z" fill="#f7b8c9"/>
+  <circle cx="28" cy="30.2" r="1.1" fill="#ffe9f0"/>
+  <path d="M67 33c-2.4-1.2-2.4-3.6 0-4.8 2.4 1.2 2.4 3.6 0 4.8z" fill="#8a5bd8"/>
+  <path d="M67 33c-1.6-2.2-1-4.4 1.4-5.2 1.6 2.4 1.2 4.6-1.4 5.2z" fill="#a67fe0"/>
+  <circle cx="67" cy="30.4" r="1" fill="#f2d9ff"/>
 </svg>`;
 
 		const ART_STELLA = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="stpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#241b4d"/><stop offset="1" stop-color="#0e0a24"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#stpr)"/>
-  <path d="M48 14c-14 0-24 10-24 24 0 12 8 22 20 24-3-4-5-9-5-14 0-14 10-24 24-24-3-8-8-10-15-10z" fill="#ffd76a"/>
-  <path d="M72 22l2.2 6.3 6.3 2.2-6.3 2.2-2.2 6.3-2.2-6.3-6.3-2.2 6.3-2.2z" fill="#9a8bff"/>
-  <circle cx="22" cy="24" r="1.6" fill="#fff"/><circle cx="78" cy="40" r="1.3" fill="#ffd76a"/><circle cx="18" cy="60" r="1.4" fill="#9a8bff"/>
+  <defs><linearGradient id="stbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#241b4d"/><stop offset="1" stop-color="#0e0a24"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#stbg)"/>
+  <circle cx="22" cy="20" r="1.4" fill="#ffd76a"/><circle cx="76" cy="16" r="1.2" fill="#fff"/><circle cx="84" cy="40" r="1.6" fill="#ffd76a"/><circle cx="14" cy="52" r="1.3" fill="#9a8bff"/><circle cx="30" cy="74" r="1.4" fill="#fff"/><circle cx="70" cy="80" r="1.3" fill="#9a8bff"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#31266b"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#f2ecff"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="16.5" ry="17.5" fill="#ffe4d1"/>
+  <path d="M48 15c-12 0-20 9-20 21 0 11 5 21 20 26v-9c-7-3-11-8-11-16 0-9 4-15 11-17z" fill="#7c5cff"/>
+  <path d="M48 15c12 0 20 9 20 21 0 11-5 21-20 26v-9c7-3 11-8 11-16 0-9-4-15-11-17z" fill="#7c5cff"/>
+  <path d="M31 34c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#9a7bff"/>
+  <path d="M48 2l6 10 11-2-5 10 9 7-11 3-2 10-6-8-7 8-2-10-11-3 9-7-5-10z" fill="#ffd76a"/>
+  <path d="M48 10c2 0 4 1 5.5 3l-5.5 3-5.5-3c1.5-2 3.5-3 5.5-3z" fill="#6b5bd2"/>
+  <ellipse cx="40.5" cy="47" rx="3.6" ry="5.4" fill="#3b2b7d"/><ellipse cx="55.5" cy="47" rx="3.6" ry="5.4" fill="#3b2b7d"/>
+  <circle cx="41.9" cy="45" r="1.4" fill="#fff"/><circle cx="56.9" cy="45" r="1.4" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#b96a5f" fill="none" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`;
 
 		const ART_BLADE = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="azpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bfe3f7"/><stop offset="1" stop-color="#5aa9e6"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#azpr)"/>
-  <g stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" opacity="0.95">
-    <path d="M48 16v64M24 30l48 36M24 66l48-36"/>
-  </g>
-  <circle cx="48" cy="48" r="4.5" fill="#fff"/>
-  <circle cx="48" cy="16" r="2.6" fill="#dff1fb"/><circle cx="72" cy="48" r="2.2" fill="#dff1fb"/>
+  <defs><linearGradient id="azbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bfe3f7"/><stop offset="1" stop-color="#5aa9e6"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#azbg)"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#eef6fc"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#2f7fb8"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="16.5" ry="17.5" fill="#ffe4d1"/>
+  <path d="M48 15c-12 0-20 9-20 21 0 11 5 21 20 26v-9c-7-3-11-8-11-16 0-9 4-15 11-17z" fill="#8fd0f2"/>
+  <path d="M48 15c12 0 20 9 20 21 0 11-5 21-20 26v-9c7-3 11-8 11-16 0-9-4-15-11-17z" fill="#8fd0f2"/>
+  <path d="M31 34c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#a8ddf6"/>
+  <path d="M48 12c1.5 0 3 2 3 6-1.6-1-3.4-1-5 0 0-4 1-6 2-6z" fill="#dff1fb"/>
+  <path d="M62 33c4-7 9-11 15-13-3 7-4 13-2 18-5-1-9-2-13-5z" fill="#2f7fb8"/>
+  <path d="M34 33c-4-7-9-11-15-13 3 7 4 13 2 18 5-1 9-2 13-5z" fill="#2f7fb8"/>
+  <ellipse cx="40.5" cy="47" rx="3.6" ry="5.3" fill="#1d4f7d"/><ellipse cx="55.5" cy="47" rx="3.6" ry="5.3" fill="#1d4f7d"/>
+  <circle cx="41.9" cy="45" r="1.4" fill="#fff"/><circle cx="56.9" cy="45" r="1.4" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#b96a5f" fill="none" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`;
 
 		const ART_SCARLET = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="snpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a121c"/><stop offset="1" stop-color="#150a10"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#snpr)"/>
-  <g fill="#c2284b"><circle cx="48" cy="40" r="15"/><circle cx="37" cy="50" r="10"/><circle cx="59" cy="50" r="10"/></g>
-  <path d="M48 26c-7-8-15-4-17 2 7 2 13 6 17 11 4-5 10-9 17-11-2-6-10-10-17-2z" fill="#e8a0b0"/>
-  <path d="M40 62l8-10 8 10-2.4 6h-11.2z" fill="#d4af37"/>
-  <path d="M48 74l-3 6h6z" fill="#7c1f33"/>
+  <defs><linearGradient id="snbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a121c"/><stop offset="1" stop-color="#150a10"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#snbg)"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#2c1019"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#d8c9a8"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="16.5" ry="17.5" fill="#ffe4d1"/>
+  <path d="M48 15c-12 0-20 9-20 21 0 11 5 21 20 26v-9c-7-3-11-8-11-16 0-9 4-15 11-17z" fill="#241822"/>
+  <path d="M48 15c12 0 20 9 20 21 0 11-5 21-20 26v-9c7-3 11-8 11-16 0-9-4-15-11-17z" fill="#241822"/>
+  <path d="M31 34c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#2e1a24"/>
+  <path d="M27 30c-6 2-9 7-8 13 3 3 6 4 10 3-1-5 0-10 2-14z" fill="#2e1a24"/>
+  <path d="M69 30c6 2 9 7 8 13-3 3-6 4-10 3 1-5 0-10-2-14z" fill="#2e1a24"/>
+  <circle cx="27" cy="24" r="3.4" fill="#c2284b"/><circle cx="27" cy="24" r="1.3" fill="#e8a0b0"/>
+  <circle cx="69" cy="24" r="3.4" fill="#c2284b"/><circle cx="69" cy="24" r="1.3" fill="#e8a0b0"/>
+  <path d="M40 96h16l-3-8h-10z" fill="#d4af37"/>
+  <ellipse cx="40.5" cy="47" rx="3.6" ry="5.5" fill="#7c1f33"/><ellipse cx="55.5" cy="47" rx="3.6" ry="5.5" fill="#7c1f33"/>
+  <circle cx="41.9" cy="45" r="1.4" fill="#fff"/><circle cx="56.9" cy="45" r="1.4" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#ef9aa4"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#ef9aa4"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#a35063" fill="none" stroke-width="1.5" stroke-linecap="round"/>
 </svg>`;
 
 		const ART_MINT = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="mtpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9f2e2"/><stop offset="1" stop-color="#7ee2b8"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#mtpr)"/>
-  <g fill="#2bb38f"><ellipse cx="48" cy="42" rx="19" ry="26" transform="rotate(-24 48 42)"/></g>
-  <path d="M48 16v30" stroke="#1d5c46" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="48" cy="74" r="7" fill="#e8a33d"/>
-  <circle cx="48" cy="74" r="3" fill="#f7d48a"/>
+  <defs><linearGradient id="mtbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9f2e2"/><stop offset="1" stop-color="#7ee2b8"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#mtbg)"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#fdf6ee"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#2bb38f"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="16.5" ry="17.5" fill="#ffe4d1"/>
+  <path d="M48 15c-12 0-20 9-20 21 0 11 5 21 20 26v-9c-7-3-11-8-11-16 0-9 4-15 11-17z" fill="#34d399"/>
+  <path d="M48 15c12 0 20 9 20 21 0 11-5 21-20 26v-9c7-3 11-8 11-16 0-9-4-15-11-17z" fill="#34d399"/>
+  <path d="M31 34c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#54e0aa"/>
+  <path d="M20 36c-3-9 1-16 8-19 3 5 3 11 0 16z" fill="#34d399"/>
+  <path d="M76 36c3-9-1-16-8-19-3 5-3 11 0 16z" fill="#34d399"/>
+  <path d="M19 20l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="#ffd76a"/>
+  <ellipse cx="40.5" cy="47" rx="3.6" ry="5.3" fill="#1d5c46"/><ellipse cx="55.5" cy="47" rx="3.6" ry="5.3" fill="#1d5c46"/>
+  <circle cx="41.9" cy="45" r="1.4" fill="#fff"/><circle cx="56.9" cy="45" r="1.4" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#b96a5f" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="48" cy="84" r="3.4" fill="#e8a33d"/><circle cx="48" cy="84" r="1.4" fill="#f7d48a"/>
 </svg>`;
 
 		const ART_GOLD = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="gdpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7dfae"/><stop offset="1" stop-color="#e0a13a"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#gdpr)"/>
-  <circle cx="48" cy="48" r="22" fill="none" stroke="#8a6a2f" stroke-width="5"/>
-  <g fill="#8a6a2f"><rect x="44" y="16" width="8" height="13" rx="2"/><rect x="44" y="67" width="8" height="13" rx="2"/><rect x="16" y="44" width="13" height="8" rx="2"/><rect x="67" y="44" width="13" height="8" rx="2"/></g>
-  <circle cx="48" cy="48" r="9" fill="#f4c95d"/>
-  <path d="M78 24l1.6 4.6 4.6 1.6-4.6 1.6-1.6 4.6-1.6-4.6-4.6-1.6 4.6-1.6z" fill="#8a6a2f"/>
+  <defs><linearGradient id="gdbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7dfae"/><stop offset="1" stop-color="#e0a13a"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#gdbg)"/>
+  <circle cx="48" cy="48" r="34" fill="none" stroke="#8a6a2f" stroke-width="1.6" opacity="0.5"/>
+  <circle cx="48" cy="48" r="26" fill="none" stroke="#8a6a2f" stroke-width="1.2" opacity="0.4"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#b98a3c"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#fbf3e0"/>
+  <rect x="42" y="62" width="12" height="15" rx="6" fill="#ffe0cb"/>
+  <ellipse cx="48" cy="45" rx="16.5" ry="17.5" fill="#ffe4d1"/>
+  <path d="M48 15c-12 0-20 9-20 21 0 11 5 21 20 26v-9c-7-3-11-8-11-16 0-9 4-15 11-17z" fill="#e8a33d"/>
+  <path d="M48 15c12 0 20 9 20 21 0 11-5 21-20 26v-9c7-3 11-8 11-16 0-9-4-15-11-17z" fill="#e8a33d"/>
+  <path d="M31 34c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#f4c95d"/>
+  <path d="M30 12c2-3 6-5 11-6 1 3 1 6-2 9-4 0-7-1-9-3z" fill="#8a6a2f"/>
+  <path d="M66 12c-2-3-6-5-11-6-1 3-1 6 2 9 4 0 7-1 9-3z" fill="#8a6a2f"/>
+  <path d="M30 8h14M52 8h14" stroke="#8a6a2f" stroke-width="2.2" stroke-linecap="round"/>
+  <ellipse cx="40.5" cy="47" rx="3.6" ry="5.3" fill="#6d4a15"/><ellipse cx="55.5" cy="47" rx="3.6" ry="5.3" fill="#6d4a15"/>
+  <circle cx="41.9" cy="45" r="1.4" fill="#fff"/><circle cx="56.9" cy="45" r="1.4" fill="#fff"/>
+  <ellipse cx="36.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/><ellipse cx="59.5" cy="55" rx="3" ry="1.6" fill="#f2a9a2"/>
 </svg>`;
 		const ART_SHOREKEEPER = `<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <defs><linearGradient id="skpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bfe0f7"/><stop offset="1" stop-color="#4a74d8"/></linearGradient></defs>
-  <rect width="96" height="96" rx="20" fill="url(#skpr)"/>
-  <path d="M48 16l11 17-11 17-11-17z" fill="#9dc4f5"/>
-  <path d="M48 22l6 9-6 9-6-9z" fill="#eaf3ff"/>
-  <path d="M8 62c10-11 20-11 30 0s20 11 30 0 16-11 20-6" stroke="#f4f8fe" stroke-width="3.4" fill="none" stroke-linecap="round" opacity="0.95"/>
-  <path d="M8 74c10-11 20-11 30 0s20 11 30 0 16-11 20-6" stroke="#dcebff" stroke-width="2.2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <defs><linearGradient id="skbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bfe0f7"/><stop offset="1" stop-color="#4a74d8"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#skbg)"/>
+  <path d="M22 96c0-10 11-16 26-16s26 6 26 16z" fill="#f4f8fe"/>
+  <path d="M36 96v-12c0-4 4-6 8-6h4v18z" fill="#3f66c9"/>
+  <path d="M43 74l5-5 5 5-2 6h-6z" fill="#5f7fe0"/>
+  <rect x="42" y="60" width="12" height="16" rx="6" fill="#ffe2cf"/>
+  <ellipse cx="48" cy="44" rx="16" ry="17" fill="#ffe4d1"/>
+  <path d="M48 13c-13 0-21 10-21 22 0 11 6 21 21 26v-10c-8-4-12-10-12-17 0-10 5-16 12-18z" fill="#3b62c4"/>
+  <path d="M48 13c13 0 21 10 21 22 0 11-6 21-21 26v-10c8-4 12-10 12-17 0-10-5-16-12-18z" fill="#3b62c4"/>
+  <path d="M31 33c2-12 9-18 17-18s15 6 17 18c-3-8-9-12-17-12s-14 4-17 12z" fill="#5278d9"/>
+  <path d="M24 34c-4 0-7 3-7 8 4-1 7-1 9 2 2-3 1-7-2-10z" fill="#f4f8fe"/>
+  <path d="M72 34c4 0 7 3 7 8-4-1-7-1-9 2-2-3-1-7 2-10z" fill="#f4f8fe"/>
+  <path d="M26 28c-1-6 2-11 8-13 2 4 2 9-1 13z" fill="#dfe9fb"/>
+  <path d="M70 28c1-6-2-11-8-13-2 4-2 9 1 13z" fill="#dfe9fb"/>
+  <ellipse cx="40.5" cy="46.5" rx="3.8" ry="5.5" fill="#5b3fa8"/>
+  <ellipse cx="55.5" cy="46.5" rx="3.8" ry="5.5" fill="#5b3fa8"/>
+  <circle cx="41.9" cy="44.4" r="1.5" fill="#fff"/>
+  <circle cx="56.9" cy="44.4" r="1.5" fill="#fff"/>
+  <ellipse cx="36.5" cy="54.5" rx="3" ry="1.6" fill="#f2a9a2"/>
+  <ellipse cx="59.5" cy="54.5" rx="3" ry="1.6" fill="#f2a9a2"/>
+  <path d="M45.5 56.5c1.6 1.6 3.4 1.6 5 0" stroke="#b96a5f" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M44 77l4-8 4 8-1.6 3h-4.8z" fill="#9dc4f5"/>
+  <path d="M48 69l1.6 3.4L48 76l-1.6-3.6z" fill="#eaf3ff"/>
 </svg>`;
 		//#endregion
 
 		//#region src/client/catalog.ts
 		/**
-		 * The gallery catalog: official stock look first, then the original free
-		 * skins shipped by this repository. `package`/`bodyAttr` mirror each
-		 * skin.json so try-on and active detection share the boot-graph truth.
+		 * The gallery catalog: official stock look first, then the whale-girl
+		 * maid-atelier skin, then the original anime-girl skins shipped by this
+		 * repository. `package`/`bodyAttr` mirror each skin.json so try-on and
+		 * active detection share the boot-graph truth.
 		 */
 		const CATALOG = [
 			{
@@ -109,12 +230,27 @@ window.__ModuleLoader__.load({
 				order: 1
 			},
 			{
+				id: "maid-atelier",
+				package: "@dsh-external/dsh-client-ui-skin-maid-atelier",
+				bodyAttr: "data-dsh-maid-atelier",
+				name: "鲸鱼娘 · 深海女仆工坊",
+				nameEn: "Whale Maids — Abyssal Atelier",
+				author: "Small-tailqwq（鲸鱼娘：上善 / ZipZipPipe）",
+				tagline: "双女仆背景、深海蓝蕾丝界面与 Q 版侧栏",
+				description: "本仓库的旗舰鲸鱼娘主题：双女仆工坊场景背景，深海蓝、陶瓷白与柔金构成的蕾丝界面。",
+				accent: "#c5a468",
+				preview: "#dbe6f7",
+				previewDark: "#0b193f",
+				art: ART_MAID,
+				order: 2
+			},
+			{
 				id: "sakura-miko",
 				package: "@dsh-external/dsh-client-ui-skin-sakura-miko",
 				bodyAttr: "data-dsh-sakura-miko",
 				name: "樱歌 · 神社巫女",
 				nameEn: "Sakura Miko",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "垂樱神社 · 朱红鸟居 · 花瓣飘落动画",
 				description: "原创巫女角色：樱粉与朱红铺满界面，垂樱与鸟居背景，花瓣在面板间飘落。",
 				accent: "#e8567d",
@@ -129,7 +265,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-stella-witch",
 				name: "星语 · 星尘魔女",
 				nameEn: "Stella Witch",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "月夜天文台 · 星尘与月牙 · 紫罗兰渐变",
 				description: "原创魔法少女：深紫星夜背景、金色月牙与缓缓浮动的星尘，水晶质感按钮。",
 				accent: "#7c5cff",
@@ -144,7 +280,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-azure-blade",
 				name: "凛霜 · 苍雪剑姬",
 				nameEn: "Azure Blade",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "雪原晴空 · 霜花玻璃 · 飘雪动画",
 				description: "原创剑士少女：冰蓝与银白界面，雪山雪原背景，霜花点缀按钮与面板。",
 				accent: "#4ea8de",
@@ -159,7 +295,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-scarlet-noir",
 				name: "绯月 · 蔷薇千金",
 				nameEn: "Scarlet Noir",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "哥特蔷薇庄园 · 绯红黑金 · 烛火微光",
 				description: "原创哥特千金：绯红、墨黑与描金构成界面，玫瑰与烛台背景，蕾丝边框装饰。",
 				accent: "#c2284b",
@@ -174,7 +310,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-mint-catgirl",
 				name: "薄荷 · 猫娘茶会",
 				nameEn: "Mint Catgirl",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "奶油薄荷 · 肉垫与铃铛 · 午后茶会",
 				description: "原创猫娘角色：薄荷绿与奶油白界面，花园茶会背景，猫爪肉垫与铃铛点缀按钮。",
 				accent: "#2bb38f",
@@ -189,7 +325,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-gold-alchemist",
 				name: "琥珀 · 炼金少女",
 				nameEn: "Gold Alchemist",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "炼金工房 · 齿轮与药剂 · 羊皮纸琥珀",
 				description: "原创炼金术士：琥珀金与青铜色界面，工房背景的齿轮与炼成阵，药水瓶点缀。",
 				accent: "#d99a2b",
@@ -204,7 +340,7 @@ window.__ModuleLoader__.load({
 				bodyAttr: "data-dsh-shorekeeper",
 				name: "守岸人",
 				nameEn: "Shorekeeper",
-				author: "0928OYX",
+				author: "DeepSeek Harness 皮肤画廊",
 				tagline: "鸣潮壁纸 · 海雾蓝紫 · 晶光微漾",
 				description: "以《鸣潮》守岸人哲风壁纸为背景：海雾蓝白与紫晶色调界面，浪纹与晶光点缀面板，左侧导航同款海岸蓝紫渐变。",
 				accent: "#5f7fe0",
@@ -251,6 +387,10 @@ body[data-dsh-skin-gallery] .sgBtn:disabled{cursor:default;opacity:.55}
 body[data-dsh-skin-gallery] .sgBtnPrimary{color:var(--dsw-alias-label-primary-foreground);background:var(--dsw-alias-button-primary-fill);border-color:transparent}
 body[data-dsh-skin-gallery] .sgBtnPrimary:hover:not(:disabled){background:var(--dsw-alias-button-primary-hover)}
 body[data-dsh-skin-gallery] .sgNote{color:var(--dsw-alias-label-tertiary);font-size:12px;line-height:18px;margin:0}
+		body[data-dsh-skin-gallery] .sgCtxMenu{position:fixed;z-index:3000;min-width:150px;padding:4px;display:flex;flex-direction:column;gap:2px;background:var(--dsw-alias-bg-layer-3);border:1px solid var(--dsw-alias-border-l3);border-radius:10px;box-shadow:var(--dsw-shadow-lv2);font-size:13px}
+		body[data-dsh-skin-gallery] .sgCtxItem{box-sizing:border-box;height:30px;padding:0 10px;border:0;border-radius:7px;background:transparent;color:var(--dsw-alias-label-primary);font:inherit;text-align:left;cursor:pointer}
+		body[data-dsh-skin-gallery] .sgCtxItem:hover{background:var(--dsw-alias-interactive-bg-hover)}
+		body[data-dsh-skin-gallery] .sgCtxHint{padding:8px 10px;color:var(--dsw-alias-label-tertiary);font-size:12px}
 body[data-dsh-skin-gallery] .sgBgCard{border:1px solid var(--dsw-alias-border-l2);background:var(--dsw-alias-bg-layer-2);border-radius:14px;flex-direction:column;gap:10px;padding:12px;margin-top:14px;display:flex}
 body[data-dsh-skin-gallery] .sgBgHead{flex-direction:column;gap:2px;display:flex}
 body[data-dsh-skin-gallery] .sgBgTitle{font-size:14px;font-weight:600;line-height:20px}
@@ -1356,7 +1496,7 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 		const zh = {
 			title: "界面皮肤",
 			intro: "选择一款皮肤：界面主题色、装饰与按钮样式都会随之改变。可先「试穿」预览（退出即完全还原）；「应用」即时生效、无需重启，配置写入后重启依然保留。",
-			note: "皮肤只做呈现：只改变浏览器 DOM 与样式，不触及模型请求。第 1 项为官方默认皮肤，其余为本仓库原创免费皮肤。",
+			note: "皮肤只做呈现：只改变浏览器 DOM 与样式，不触及模型请求。第 1 项为官方默认皮肤，第 2 项为鲸鱼娘主题。",
 			active: "使用中",
 			pending: "已应用·待重启",
 			pendingHint: "已应用「{name}」，但界面尚未重载——本机桌面端需重启 DSH Desktop 后生效（当前生效：「{active}」）。",
@@ -1395,7 +1535,7 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 		const en = {
 			title: "Skins",
 			intro: "Pick a skin: the interface theme, decorations and buttons change with it. Try one on for a live preview (fully restored on exit); Apply takes effect immediately — no restart needed, and the config persists across restarts.",
-			note: "Skins are presentation-only: they change browser DOM and styles, never model requests. Item 1 is the official default; the rest are original free skins from this repository.",
+			note: "Skins are presentation-only: they change browser DOM and styles, never model requests. Item 1 is the official default, item 2 is the whale-girl theme.",
 			active: "Active",
 			pending: "Applied · restart pending",
 			pendingHint: "Applied \"{name}\", but the UI has not reloaded — this desktop build needs a DSH Desktop restart to activate it (currently active: \"{active}\").",
@@ -1433,6 +1573,112 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 		};
 		//#endregion
 
+		//#region src/client/input-context-menu.ts
+		/**
+		 * Right-click context menu for editable fields (input/textarea/
+		 * contenteditable): the DSH Desktop shell disables the native WebView2
+		 * context menu, so right-click paste never appears. This installs a
+		 * lightweight menu with 粘贴 / 复制 / 剪切 / 全选. Presentation only —
+		 * never touches model requests.
+		 * @returns cleanup that removes the menu and its listeners.
+		 */
+		function installInputContextMenu() {
+			let menu = null;
+			const editableTarget = (element) => {
+				if (element === null || typeof element !== "object" || typeof element.closest !== "function") return null;
+				const node = element.closest("textarea, input, [contenteditable='true'], [contenteditable='']");
+				if (node === null) return null;
+				const tag = typeof node.tagName === "string" ? node.tagName.toUpperCase() : "";
+				if (tag === "TEXTAREA" || tag === "INPUT" || node.isContentEditable === true) return node;
+				return null;
+			};
+			const close = () => {
+				menu?.remove();
+				menu = null;
+			};
+			const insertText = (target, text) => {
+				target.focus();
+				if (typeof target.setRangeText === "function" && !target.isContentEditable) {
+					const start = target.selectionStart ?? target.value.length;
+					const end = target.selectionEnd ?? start;
+					target.setRangeText(text, start, end, "end");
+					target.dispatchEvent(new Event("input", { bubbles: true }));
+				} else {
+					document.execCommand("insertText", false, text);
+				}
+			};
+			const item = (label, run) => {
+				const button = document.createElement("button");
+				button.type = "button";
+				button.className = "sgCtxItem";
+				button.textContent = label;
+				button.addEventListener("click", () => {
+					run();
+					close();
+				});
+				return button;
+			};
+			const pasteItem = (target) => {
+				const button = document.createElement("button");
+				button.type = "button";
+				button.className = "sgCtxItem";
+				button.textContent = "粘贴";
+				button.addEventListener("click", () => {
+					if (navigator.clipboard !== undefined && typeof navigator.clipboard.readText === "function") {
+						navigator.clipboard.readText().then((text) => {
+							insertText(target, text);
+							close();
+						}).catch(() => showClipboardHint());
+					} else {
+						showClipboardHint();
+					}
+				});
+				return button;
+			};
+			const onContextMenu = (event) => {
+				const target = editableTarget(event.target);
+				if (target === null) return;
+				event.preventDefault();
+				close();
+				menu = document.createElement("div");
+				menu.className = "sgCtxMenu";
+				menu.style.left = Math.max(0, Math.min(event.clientX, window.innerWidth - 170)) + "px";
+				menu.style.top = Math.max(0, Math.min(event.clientY, window.innerHeight - 180)) + "px";
+				menu.append(pasteItem(target));
+				menu.append(item("复制", () => { target.focus(); document.execCommand("copy"); }));
+				menu.append(item("剪切", () => { target.focus(); document.execCommand("cut"); }));
+				menu.append(item("全选", () => { target.focus(); document.execCommand("selectAll"); }));
+				document.body.append(menu);
+			};
+			const showClipboardHint = () => {
+				if (menu === null) return;
+				menu.replaceChildren();
+				const hint = document.createElement("div");
+				hint.className = "sgCtxHint";
+				hint.textContent = "无法读取剪贴板，请按 Ctrl+V 粘贴";
+				menu.append(hint);
+				window.setTimeout(close, 1800);
+			};
+			const onPointerDown = (event) => {
+				if (menu !== null && !menu.contains(event.target)) close();
+			};
+			const onKeyDown = (event) => {
+				if (event.key === "Escape") close();
+			};
+			document.addEventListener("contextmenu", onContextMenu, true);
+			document.addEventListener("pointerdown", onPointerDown, true);
+			document.addEventListener("keydown", onKeyDown, true);
+			window.addEventListener("blur", close);
+			return () => {
+				document.removeEventListener("contextmenu", onContextMenu, true);
+				document.removeEventListener("pointerdown", onPointerDown, true);
+				document.removeEventListener("keydown", onKeyDown, true);
+				window.removeEventListener("blur", close);
+				close();
+			};
+		}
+		//#endregion
+
 		//#region src/client/index.ts
 		/** Locale namespace owned by this plugin. */
 		const NS = "skinGallery";
@@ -1451,6 +1697,7 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 					delete document.body.dataset.dshSkinGallery;
 				};
 			}, "ui-skin-gallery: body scope");
+			ctx.effect(() => installInputContextMenu(), "ui-skin-gallery: input context menu");
 			ctx.effect(() => {
 				document.body.style.setProperty("--dsh-skin-opacity", (readSkinOpacity() / 100).toFixed(2));
 				return () => document.body.style.removeProperty("--dsh-skin-opacity");
