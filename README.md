@@ -20,9 +20,13 @@
 
 ## 🖥️ 新会话页预览
 
-「守岸人」主题下的新会话页面效果：桌面海岸壁纸 + 海雾蓝紫界面 + 漂浮晶光。
+「守岸人」主题下的新会话页面实景效果：桌面壁纸铺进对话区 + 海雾蓝紫界面 + 漂浮晶光。
 
-![守岸人新会话页](preview/session-shorekeeper.svg)
+![守岸人新会话页（实景合成）](preview/session-shorekeeper-poster.jpg)
+
+> 上图壁纸为《鸣潮》（Wuthering Waves，库洛游戏）官方宣传图「守岸人」，版权归原权利方所有，仅用于本仓库宣传展示。
+
+矢量示意图：[preview/session-shorekeeper.svg](preview/session-shorekeeper.svg)
 
 ## 🌈 主题实景预览
 
