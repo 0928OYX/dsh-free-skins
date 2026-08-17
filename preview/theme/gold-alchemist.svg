@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<defs><radialGradient id="glow" cx="0.5" cy="0.25" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="540" fill="#fbf6ec"/>
+<rect width="960" height="540" fill="url(#glow)"/>
+<rect width="200" height="540" fill="#fcf8ef"/>
+<rect x="200" y="0" width="1.5" height="540" fill="#c89a3c" opacity="0.35"/>
+<circle cx="34" cy="36" r="14" fill="#d99a2b"/>
+<text x="34" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">DSH</text>
+<text x="60" y="41" font-size="15" font-weight="600" fill="#3a2d1a">DeepSeek Harness</text>
+<rect x="12" y="78" width="176" height="34" rx="10" fill="#f7ead0"/>
+<text x="28" y="101" font-size="13" fill="#d99a2b" font-weight="600">会话</text>
+<text x="28" y="143" font-size="13" fill="#6d5a3d" font-weight="400">工作区</text>
+<text x="28" y="185" font-size="13" fill="#6d5a3d" font-weight="400">模型</text>
+<text x="28" y="227" font-size="13" fill="#6d5a3d" font-weight="400">皮肤</text>
+<text x="28" y="269" font-size="13" fill="#6d5a3d" font-weight="400">插件</text>
+<rect x="200" y="0" width="760" height="56" fill="#fffdf7" opacity="0.7"/>
+<rect x="200" y="54.5" width="760" height="1.5" fill="#d99a2b" opacity="0.35"/>
+<text x="228" y="35" font-size="16" font-weight="600" fill="#3a2d1a">琥珀 · 炼金少女 · DeepSeek Harness</text>
+<text x="228" y="52" font-size="11" fill="#a08a67">Gold Alchemist · 0928OYX</text>
+<text x="228" y="86" font-size="11" fill="#a08a67">今天 09:41</text>
+<rect x="230" y="104" width="420" height="58" rx="14" fill="#fffdf7" stroke="#c89a3c" stroke-opacity="0.45"/>
+<text x="244" y="130" font-size="12.5" fill="#3a2d1a">你好，今天想聊点什么？你可以问我任何问题。</text>
+<rect x="640" y="176" width="290" height="50" rx="14" fill="#f7ead0" stroke="#c89a3c" stroke-opacity="0.45"/>
+<text x="654" y="202" font-size="12.5" fill="#3a2d1a">帮我把界面皮肤调成这个主题吧 ~</text>
+<rect x="230" y="246" width="380" height="58" rx="14" fill="#fffdf7" stroke="#c89a3c" stroke-opacity="0.45"/>
+<text x="244" y="272" font-size="12.5" fill="#3a2d1a">好的，皮肤已经应用：琥珀 · 炼金少女，背景与按钮配色已同步切换。</text>
+<rect x="620" y="318" width="310" height="50" rx="14" fill="#f7ead0" stroke="#c89a3c" stroke-opacity="0.45"/>
+<text x="634" y="344" font-size="12.5" fill="#3a2d1a">很好看，谢谢你！</text>
+<rect x="230" y="392" width="560" height="46" rx="14" fill="#fffdf7" stroke="#c89a3c" stroke-opacity="0.6"/>
+<text x="248" y="420" font-size="12.5" fill="#a08a67">输入消息，Ctrl+Enter 发送…</text>
+<rect x="728" y="400" width="52" height="30" rx="15" fill="#e0a13a"/>
+<text x="754" y="420" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">发送</text>
+<rect x="230" y="466" width="86" height="30" rx="15" fill="#e0a13a"/>
+<text x="273" y="486" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">主按钮</text>
+<rect x="326" y="466" width="86" height="30" rx="15" fill="#fffdf7" stroke="#c89a3c" stroke-opacity="0.6"/>
+<text x="369" y="486" text-anchor="middle" font-size="12" fill="#3a2d1a">次按钮</text>
+<svg x="200" y="0" width="120" height="96" viewBox="0 0 170 130" overflow="visible"><svg viewBox="0 0 170 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M0 2 Q 60 16 168 64" stroke="#b08547" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <g transform="translate(44,38)" opacity="1">
+  <circle r="16" fill="none" stroke="#b08547" stroke-width="5.44"/>
+  <rect x="13.44" y="-2.56" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="8.75370849898476" y="8.753708498984759" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="-2.559999999999999" y="13.44" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="-13.87370849898476" y="8.75370849898476" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="-18.56" y="-2.5599999999999983" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="-13.873708498984763" y="-13.87370849898476" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="-2.560000000000003" y="-18.56" width="5.12" height="5.12" rx="0.96" fill="#b08547"/><rect x="8.753708498984757" y="-13.873708498984763" width="5.12" height="5.12" rx="0.96" fill="#b08547"/>
+  <circle r="3.84" fill="#b08547"/>
+</g>
+  <g transform="translate(88,60)" opacity="1">
+  <circle r="11" fill="none" stroke="#c9a468" stroke-width="3.74"/>
+  <rect x="9.24" y="-1.76" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="6.018174593052024" y="6.018174593052022" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="-1.7599999999999993" y="9.24" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="-9.538174593052021" y="6.018174593052024" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="-12.76" y="-1.7599999999999987" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="-9.538174593052025" y="-9.538174593052021" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="-1.760000000000002" y="-12.76" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/><rect x="6.018174593052021" y="-9.538174593052025" width="3.52" height="3.52" rx="0.6599999999999999" fill="#c9a468"/>
+  <circle r="2.6399999999999997" fill="#c9a468"/>
+</g>
+  <path d="M126 26l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z" fill="#e0a13a"/>
+</svg></svg>
+<svg x="340" y="60" width="22" height="22" viewBox="0 0 24 24" opacity="0.8" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="10" cy="10" r="7" fill="none" stroke="#e0a13a" stroke-width="2.6"/>
+  <path d="M10 3v14M3 10h14" stroke="#e0a13a" stroke-width="2.6"/>
+  <circle cx="10" cy="10" r="1.8" fill="#f7dfae"/>
+</svg></svg>
+<svg x="560" y="150" width="16" height="16" viewBox="0 0 24 24" opacity="0.6" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="10" cy="10" r="7" fill="none" stroke="#e0a13a" stroke-width="2.6"/>
+  <path d="M10 3v14M3 10h14" stroke="#e0a13a" stroke-width="2.6"/>
+  <circle cx="10" cy="10" r="1.8" fill="#f7dfae"/>
+</svg></svg>
+<svg x="860" y="90" width="26" height="26" viewBox="0 0 24 24" opacity="0.7" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="10" cy="10" r="7" fill="none" stroke="#e0a13a" stroke-width="2.6"/>
+  <path d="M10 3v14M3 10h14" stroke="#e0a13a" stroke-width="2.6"/>
+  <circle cx="10" cy="10" r="1.8" fill="#f7dfae"/>
+</svg></svg>
+<svg x="700" y="360" width="18" height="18" viewBox="0 0 24 24" opacity="0.55" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <circle cx="10" cy="10" r="7" fill="none" stroke="#e0a13a" stroke-width="2.6"/>
+  <path d="M10 3v14M3 10h14" stroke="#e0a13a" stroke-width="2.6"/>
+  <circle cx="10" cy="10" r="1.8" fill="#f7dfae"/>
+</svg></svg>
+<text x="960" y="526" text-anchor="end" font-size="11" fill="#a08a67">琥珀 · 炼金少女 · 0928OYX · CC BY-NC-SA 4.0 · 免费皮肤</text>
+</svg>

@@ -16,6 +16,23 @@
 | ![琥珀 · 炼金少女](preview/gold-alchemist.svg) | **琥珀 · 炼金少女** | 琥珀青铜 · 炼金工房 · 齿轮炼成阵 |
 | ![守岸人](preview/shorekeeper.svg) | **守岸人** | 海雾蓝紫 · 浪纹晶光 · 冰晶飘落 |
 
+
+## 🌈 主题实景预览
+
+每款皮肤的界面效果（亮色主题）：
+
+| 樱歌 · 神社巫女 | 星语 · 星尘魔女 | 凛霜 · 苍雪剑姬 |
+|---|---|---|
+| ![樱歌](preview/theme/sakura-miko.svg) | ![星语](preview/theme/stella-witch.svg) | ![凛霜](preview/theme/azure-blade.svg) |
+
+| 绯月 · 蔷薇千金 | 薄荷 · 猫娘茶会 | 琥珀 · 炼金少女 |
+|---|---|---|
+| ![绯月](preview/theme/scarlet-noir.svg) | ![薄荷](preview/theme/mint-catgirl.svg) | ![琥珀](preview/theme/gold-alchemist.svg) |
+
+| 守岸人 |
+|---|
+| ![守岸人](preview/theme/shorekeeper.svg) |
+
 > 第 1 项皮肤为 **DeepSeek Harness 官方默认**（不应用任何皮肤，版权归 DeepSeek）。其余 7 款为 0928OYX 原创免费皮肤。
 
 ## 🚀 功能特性

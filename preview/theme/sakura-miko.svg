@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<defs><radialGradient id="glow" cx="0.5" cy="0.25" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="540" fill="#fdf5f8"/>
+<rect width="960" height="540" fill="url(#glow)"/>
+<rect width="200" height="540" fill="#fdf1f5"/>
+<rect x="200" y="0" width="1.5" height="540" fill="#c64e74" opacity="0.35"/>
+<circle cx="34" cy="36" r="14" fill="#e8567d"/>
+<text x="34" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">DSH</text>
+<text x="60" y="41" font-size="15" font-weight="600" fill="#43273a">DeepSeek Harness</text>
+<rect x="12" y="78" width="176" height="34" rx="10" fill="#f8d9e4"/>
+<text x="28" y="101" font-size="13" fill="#e8567d" font-weight="600">会话</text>
+<text x="28" y="143" font-size="13" fill="#74586a" font-weight="400">工作区</text>
+<text x="28" y="185" font-size="13" fill="#74586a" font-weight="400">模型</text>
+<text x="28" y="227" font-size="13" fill="#74586a" font-weight="400">皮肤</text>
+<text x="28" y="269" font-size="13" fill="#74586a" font-weight="400">插件</text>
+<rect x="200" y="0" width="760" height="56" fill="#ffffff" opacity="0.7"/>
+<rect x="200" y="54.5" width="760" height="1.5" fill="#e8567d" opacity="0.35"/>
+<text x="228" y="35" font-size="16" font-weight="600" fill="#43273a">樱歌 · 神社巫女 · DeepSeek Harness</text>
+<text x="228" y="52" font-size="11" fill="#a68a9c">Sakura Miko · 0928OYX</text>
+<text x="228" y="86" font-size="11" fill="#a68a9c">今天 09:41</text>
+<rect x="230" y="104" width="420" height="58" rx="14" fill="#ffffff" stroke="#c64e74" stroke-opacity="0.45"/>
+<text x="244" y="130" font-size="12.5" fill="#43273a">你好，今天想聊点什么？你可以问我任何问题。</text>
+<rect x="640" y="176" width="290" height="50" rx="14" fill="#f8d9e4" stroke="#c64e74" stroke-opacity="0.45"/>
+<text x="654" y="202" font-size="12.5" fill="#43273a">帮我把界面皮肤调成这个主题吧 ~</text>
+<rect x="230" y="246" width="380" height="58" rx="14" fill="#ffffff" stroke="#c64e74" stroke-opacity="0.45"/>
+<text x="244" y="272" font-size="12.5" fill="#43273a">好的，皮肤已经应用：樱歌 · 神社巫女，背景与按钮配色已同步切换。</text>
+<rect x="620" y="318" width="310" height="50" rx="14" fill="#f8d9e4" stroke="#c64e74" stroke-opacity="0.45"/>
+<text x="634" y="344" font-size="12.5" fill="#43273a">很好看，谢谢你！</text>
+<rect x="230" y="392" width="560" height="46" rx="14" fill="#ffffff" stroke="#c64e74" stroke-opacity="0.6"/>
+<text x="248" y="420" font-size="12.5" fill="#a68a9c">输入消息，Ctrl+Enter 发送…</text>
+<rect x="728" y="400" width="52" height="30" rx="15" fill="#e8567d"/>
+<text x="754" y="420" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">发送</text>
+<rect x="230" y="466" width="86" height="30" rx="15" fill="#e8567d"/>
+<text x="273" y="486" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">主按钮</text>
+<rect x="326" y="466" width="86" height="30" rx="15" fill="#ffffff" stroke="#c64e74" stroke-opacity="0.6"/>
+<text x="369" y="486" text-anchor="middle" font-size="12" fill="#43273a">次按钮</text>
+<svg x="200" y="0" width="120" height="96" viewBox="0 0 170 130" overflow="visible"><svg viewBox="0 0 170 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M0 2 Q 60 14 168 62" stroke="#d86a90" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M26 10 Q 34 26 26 44" stroke="#d86a90" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <g fill="#f2a4bf">
+    <path d="M46 26c3.6 1.6 6 3.8 6 6.8-3.6.9-7.2-.9-9.6-3.6-1-1.6-1-3.4 0-4.2z"/>
+    <path d="M62 38c3.2 1.4 5.4 3.4 5.4 6.1-3.2.8-6.5-.8-8.7-3.2-.9-1.4-.9-3 0-3.8z"/>
+    <path d="M78 52c2.8 1.2 4.6 3 4.6 5.3-2.8.7-5.6-.7-7.5-2.8-.8-1.2-.8-2.6 0-3.3z"/>
+    <path d="M94 66c2.4 1 4 2.6 4 4.6-2.4.6-4.8-.6-6.5-2.4-.7-1-.7-2.2 0-2.9z"/>
+    <path d="M30 56c3.2 1.4 5.4 3.4 5.4 6.1-3.2.8-6.5-.8-8.7-3.2-.9-1.4-.9-3 0-3.8z"/>
+  </g>
+  <g fill="#e8567d">
+    <circle cx="44" cy="44" r="5"/>
+    <circle cx="72" cy="60" r="4"/>
+    <circle cx="98" cy="74" r="3.4"/>
+  </g>
+</svg></svg>
+<svg x="340" y="60" width="22" height="22" viewBox="0 0 24 24" opacity="0.8" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.6C16.9 4.9 20.2 9.7 19.8 14.8 19.5 19.2 16.5 22.2 12 22.2 7.5 22.2 4.5 19.2 4.2 14.8 3.8 9.7 7.1 4.9 12 1.6z" fill="#f5a3c2"/>
+  <path d="M12 3.2C16.1 5.9 18.7 10 18.4 14.3 18.2 18 15.8 20.6 12 20.6 8.2 20.6 5.8 18 5.6 14.3 5.3 10 7.9 5.9 12 3.2z" fill="#fbc6d9"/>
+  <path d="M12 3.4L12 20.4" stroke="#f291b4" stroke-width="0.7" opacity="0.9"/>
+  <path d="M12 6.2C9.8 8 8.6 10.4 8.4 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 6.2C14.2 8 15.4 10.4 15.6 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 10C10.8 11 10.2 12.2 10 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M12 10C13.2 11 13.8 12.2 14 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+</svg></svg>
+<svg x="560" y="150" width="16" height="16" viewBox="0 0 24 24" opacity="0.6" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.6C16.9 4.9 20.2 9.7 19.8 14.8 19.5 19.2 16.5 22.2 12 22.2 7.5 22.2 4.5 19.2 4.2 14.8 3.8 9.7 7.1 4.9 12 1.6z" fill="#f5a3c2"/>
+  <path d="M12 3.2C16.1 5.9 18.7 10 18.4 14.3 18.2 18 15.8 20.6 12 20.6 8.2 20.6 5.8 18 5.6 14.3 5.3 10 7.9 5.9 12 3.2z" fill="#fbc6d9"/>
+  <path d="M12 3.4L12 20.4" stroke="#f291b4" stroke-width="0.7" opacity="0.9"/>
+  <path d="M12 6.2C9.8 8 8.6 10.4 8.4 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 6.2C14.2 8 15.4 10.4 15.6 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 10C10.8 11 10.2 12.2 10 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M12 10C13.2 11 13.8 12.2 14 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+</svg></svg>
+<svg x="860" y="90" width="26" height="26" viewBox="0 0 24 24" opacity="0.7" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.6C16.9 4.9 20.2 9.7 19.8 14.8 19.5 19.2 16.5 22.2 12 22.2 7.5 22.2 4.5 19.2 4.2 14.8 3.8 9.7 7.1 4.9 12 1.6z" fill="#f5a3c2"/>
+  <path d="M12 3.2C16.1 5.9 18.7 10 18.4 14.3 18.2 18 15.8 20.6 12 20.6 8.2 20.6 5.8 18 5.6 14.3 5.3 10 7.9 5.9 12 3.2z" fill="#fbc6d9"/>
+  <path d="M12 3.4L12 20.4" stroke="#f291b4" stroke-width="0.7" opacity="0.9"/>
+  <path d="M12 6.2C9.8 8 8.6 10.4 8.4 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 6.2C14.2 8 15.4 10.4 15.6 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 10C10.8 11 10.2 12.2 10 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M12 10C13.2 11 13.8 12.2 14 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+</svg></svg>
+<svg x="700" y="360" width="18" height="18" viewBox="0 0 24 24" opacity="0.55" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.6C16.9 4.9 20.2 9.7 19.8 14.8 19.5 19.2 16.5 22.2 12 22.2 7.5 22.2 4.5 19.2 4.2 14.8 3.8 9.7 7.1 4.9 12 1.6z" fill="#f5a3c2"/>
+  <path d="M12 3.2C16.1 5.9 18.7 10 18.4 14.3 18.2 18 15.8 20.6 12 20.6 8.2 20.6 5.8 18 5.6 14.3 5.3 10 7.9 5.9 12 3.2z" fill="#fbc6d9"/>
+  <path d="M12 3.4L12 20.4" stroke="#f291b4" stroke-width="0.7" opacity="0.9"/>
+  <path d="M12 6.2C9.8 8 8.6 10.4 8.4 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 6.2C14.2 8 15.4 10.4 15.6 13.2" stroke="#f291b4" stroke-width="0.55" fill="none" opacity="0.8"/>
+  <path d="M12 10C10.8 11 10.2 12.2 10 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M12 10C13.2 11 13.8 12.2 14 13.6" stroke="#e98eb0" stroke-width="0.5" fill="none" opacity="0.7"/>
+</svg></svg>
+<text x="960" y="526" text-anchor="end" font-size="11" fill="#a68a9c">樱歌 · 神社巫女 · 0928OYX · CC BY-NC-SA 4.0 · 免费皮肤</text>
+</svg>

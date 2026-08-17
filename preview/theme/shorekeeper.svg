@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<defs><radialGradient id="glow" cx="0.5" cy="0.25" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="540" fill="#eef5fc"/>
+<rect width="960" height="540" fill="url(#glow)"/>
+<rect width="200" height="540" fill="#e8f2fc"/>
+<rect x="200" y="0" width="1.5" height="540" fill="#8fb4e4" opacity="0.35"/>
+<circle cx="34" cy="36" r="14" fill="#5f7fe0"/>
+<text x="34" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">DSH</text>
+<text x="60" y="41" font-size="15" font-weight="600" fill="#1c3355">DeepSeek Harness</text>
+<rect x="12" y="78" width="176" height="34" rx="10" fill="#dbe9fb"/>
+<text x="28" y="101" font-size="13" fill="#5f7fe0" font-weight="600">会话</text>
+<text x="28" y="143" font-size="13" fill="#4a6488" font-weight="400">工作区</text>
+<text x="28" y="185" font-size="13" fill="#4a6488" font-weight="400">模型</text>
+<text x="28" y="227" font-size="13" fill="#4a6488" font-weight="400">皮肤</text>
+<text x="28" y="269" font-size="13" fill="#4a6488" font-weight="400">插件</text>
+<rect x="200" y="0" width="760" height="56" fill="#f7fbfe" opacity="0.7"/>
+<rect x="200" y="54.5" width="760" height="1.5" fill="#5f7fe0" opacity="0.35"/>
+<text x="228" y="35" font-size="16" font-weight="600" fill="#1c3355">守岸人 · DeepSeek Harness</text>
+<text x="228" y="52" font-size="11" fill="#8098b8">Shorekeeper · 0928OYX</text>
+<text x="228" y="86" font-size="11" fill="#8098b8">今天 09:41</text>
+<rect x="230" y="104" width="420" height="58" rx="14" fill="#ffffff" stroke="#8fb4e4" stroke-opacity="0.45"/>
+<text x="244" y="130" font-size="12.5" fill="#1c3355">你好，今天想聊点什么？你可以问我任何问题。</text>
+<rect x="640" y="176" width="290" height="50" rx="14" fill="#dbe9fb" stroke="#8fb4e4" stroke-opacity="0.45"/>
+<text x="654" y="202" font-size="12.5" fill="#1c3355">帮我把界面皮肤调成这个主题吧 ~</text>
+<rect x="230" y="246" width="380" height="58" rx="14" fill="#ffffff" stroke="#8fb4e4" stroke-opacity="0.45"/>
+<text x="244" y="272" font-size="12.5" fill="#1c3355">好的，皮肤已经应用：守岸人，背景与按钮配色已同步切换。</text>
+<rect x="620" y="318" width="310" height="50" rx="14" fill="#dbe9fb" stroke="#8fb4e4" stroke-opacity="0.45"/>
+<text x="634" y="344" font-size="12.5" fill="#1c3355">很好看，谢谢你！</text>
+<rect x="230" y="392" width="560" height="46" rx="14" fill="#ffffff" stroke="#8fb4e4" stroke-opacity="0.6"/>
+<text x="248" y="420" font-size="12.5" fill="#8098b8">输入消息，Ctrl+Enter 发送…</text>
+<rect x="728" y="400" width="52" height="30" rx="15" fill="#4f74e8"/>
+<text x="754" y="420" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">发送</text>
+<rect x="230" y="466" width="86" height="30" rx="15" fill="#4f74e8"/>
+<text x="273" y="486" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">主按钮</text>
+<rect x="326" y="466" width="86" height="30" rx="15" fill="#f7fbfe" stroke="#8fb4e4" stroke-opacity="0.6"/>
+<text x="369" y="486" text-anchor="middle" font-size="12" fill="#1c3355">次按钮</text>
+<svg x="200" y="0" width="120" height="96" viewBox="0 0 170 130" overflow="visible"><svg viewBox="0 0 170 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M0 4 Q 58 12 168 58" stroke="#8fb8e8" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M0 20 Q 64 26 168 74" stroke="#7fa9dc" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <path d="M0 36 Q 70 40 168 88" stroke="#6f9ad0" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <g fill="#bfe0ff" opacity="0.95">
+    <circle cx="46" cy="18" r="4.2"/><circle cx="64" cy="26" r="3.2"/><circle cx="82" cy="36" r="2.6"/>
+    <circle cx="100" cy="46" r="2.2"/><circle cx="34" cy="34" r="3"/><circle cx="118" cy="56" r="1.9"/>
+  </g>
+  <g fill="#8fb8e8">
+    <circle cx="56" cy="30" r="2.2"/><circle cx="74" cy="40" r="1.8"/><circle cx="92" cy="50" r="1.5"/>
+  </g>
+</svg></svg>
+<svg x="340" y="60" width="22" height="22" viewBox="0 0 24 24" opacity="0.8" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.8L18.2 12 12 22.2 5.8 12z" fill="#a8c8f2"/>
+  <path d="M12 4.2L16.6 12 12 19.8 7.4 12z" fill="#dcebff"/>
+  <path d="M12 1.8L12 22.2" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M5.8 12L18.2 12" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M12 7L14.6 12 12 17 9.4 12z" fill="#f2f8ff" opacity="0.9"/>
+</svg></svg>
+<svg x="560" y="150" width="16" height="16" viewBox="0 0 24 24" opacity="0.6" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.8L18.2 12 12 22.2 5.8 12z" fill="#a8c8f2"/>
+  <path d="M12 4.2L16.6 12 12 19.8 7.4 12z" fill="#dcebff"/>
+  <path d="M12 1.8L12 22.2" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M5.8 12L18.2 12" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M12 7L14.6 12 12 17 9.4 12z" fill="#f2f8ff" opacity="0.9"/>
+</svg></svg>
+<svg x="860" y="90" width="26" height="26" viewBox="0 0 24 24" opacity="0.7" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.8L18.2 12 12 22.2 5.8 12z" fill="#a8c8f2"/>
+  <path d="M12 4.2L16.6 12 12 19.8 7.4 12z" fill="#dcebff"/>
+  <path d="M12 1.8L12 22.2" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M5.8 12L18.2 12" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M12 7L14.6 12 12 17 9.4 12z" fill="#f2f8ff" opacity="0.9"/>
+</svg></svg>
+<svg x="700" y="360" width="18" height="18" viewBox="0 0 24 24" opacity="0.55" overflow="visible"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M12 1.8L18.2 12 12 22.2 5.8 12z" fill="#a8c8f2"/>
+  <path d="M12 4.2L16.6 12 12 19.8 7.4 12z" fill="#dcebff"/>
+  <path d="M12 1.8L12 22.2" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M5.8 12L18.2 12" stroke="#7fa9dc" stroke-width="0.6" opacity="0.85"/>
+  <path d="M12 7L14.6 12 12 17 9.4 12z" fill="#f2f8ff" opacity="0.9"/>
+</svg></svg>
+<text x="960" y="526" text-anchor="end" font-size="11" fill="#8098b8">守岸人 · 0928OYX · CC BY-NC-SA 4.0 · 免费皮肤</text>
+</svg>

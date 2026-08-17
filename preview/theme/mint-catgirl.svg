@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+<defs><radialGradient id="glow" cx="0.5" cy="0.25" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="540" fill="#f2fbf7"/>
+<rect width="960" height="540" fill="url(#glow)"/>
+<rect width="200" height="540" fill="#f2fbf8"/>
+<rect x="200" y="0" width="1.5" height="540" fill="#4ec08f" opacity="0.35"/>
+<circle cx="34" cy="36" r="14" fill="#2bb38f"/>
+<text x="34" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">DSH</text>
+<text x="60" y="41" font-size="15" font-weight="600" fill="#1d3a32">DeepSeek Harness</text>
+<rect x="12" y="78" width="176" height="34" rx="10" fill="#dcf5ec"/>
+<text x="28" y="101" font-size="13" fill="#2bb38f" font-weight="600">会话</text>
+<text x="28" y="143" font-size="13" fill="#47665c" font-weight="400">工作区</text>
+<text x="28" y="185" font-size="13" fill="#47665c" font-weight="400">模型</text>
+<text x="28" y="227" font-size="13" fill="#47665c" font-weight="400">皮肤</text>
+<text x="28" y="269" font-size="13" fill="#47665c" font-weight="400">插件</text>
+<rect x="200" y="0" width="760" height="56" fill="#ffffff" opacity="0.7"/>
+<rect x="200" y="54.5" width="760" height="1.5" fill="#2bb38f" opacity="0.35"/>
+<text x="228" y="35" font-size="16" font-weight="600" fill="#1d3a32">薄荷 · 猫娘茶会 · DeepSeek Harness</text>
+<text x="228" y="52" font-size="11" fill="#75948a">Mint Catgirl · 0928OYX</text>
+<text x="228" y="86" font-size="11" fill="#75948a">今天 09:41</text>
+<rect x="230" y="104" width="420" height="58" rx="14" fill="#ffffff" stroke="#4ec08f" stroke-opacity="0.45"/>
+<text x="244" y="130" font-size="12.5" fill="#1d3a32">你好，今天想聊点什么？你可以问我任何问题。</text>
+<rect x="640" y="176" width="290" height="50" rx="14" fill="#dcf5ec" stroke="#4ec08f" stroke-opacity="0.45"/>
+<text x="654" y="202" font-size="12.5" fill="#1d3a32">帮我把界面皮肤调成这个主题吧 ~</text>
+<rect x="230" y="246" width="380" height="58" rx="14" fill="#ffffff" stroke="#4ec08f" stroke-opacity="0.45"/>
+<text x="244" y="272" font-size="12.5" fill="#1d3a32">好的，皮肤已经应用：薄荷 · 猫娘茶会，背景与按钮配色已同步切换。</text>
+<rect x="620" y="318" width="310" height="50" rx="14" fill="#dcf5ec" stroke="#4ec08f" stroke-opacity="0.45"/>
+<text x="634" y="344" font-size="12.5" fill="#1d3a32">很好看，谢谢你！</text>
+<rect x="230" y="392" width="560" height="46" rx="14" fill="#ffffff" stroke="#4ec08f" stroke-opacity="0.6"/>
+<text x="248" y="420" font-size="12.5" fill="#75948a">输入消息，Ctrl+Enter 发送…</text>
+<rect x="728" y="400" width="52" height="30" rx="15" fill="#21b487"/>
+<text x="754" y="420" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff">发送</text>
+<rect x="230" y="466" width="86" height="30" rx="15" fill="#21b487"/>
+<text x="273" y="486" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">主按钮</text>
+<rect x="326" y="466" width="86" height="30" rx="15" fill="#ffffff" stroke="#4ec08f" stroke-opacity="0.6"/>
+<text x="369" y="486" text-anchor="middle" font-size="12" fill="#1d3a32">次按钮</text>
+<svg x="200" y="0" width="120" height="96" viewBox="0 0 170 130" overflow="visible"><svg viewBox="0 0 170 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M0 2 Q 60 16 168 64" stroke="#2bb38f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="40" cy="34" r="7" fill="#e8a33d"/>
+  <circle cx="40" cy="34" r="2.6" fill="#f7d48a"/>
+  <ellipse cx="82" cy="52" rx="8" ry="9" fill="#2bb38f" opacity="0.9"/>
+  <circle cx="82" cy="45" r="2.8"/><circle cx="75" cy="39" r="2.8"/><circle cx="89" cy="39" r="2.8"/>
+  <path d="M124 30l3.4 8.6 8.6 3.4-8.6 3.4-3.4 8.6-3.4-8.6-8.6-3.4 8.6-3.4z" fill="#ffd76a"/>
+</svg></svg>
+<svg x="340" y="60" width="22" height="22" viewBox="0 0 24 24" opacity="0.8" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <ellipse cx="10" cy="10" rx="7" ry="8" fill="#7ee2b8"/>
+  <circle cx="10" cy="7.5" r="2.6" fill="#2bb38f"/>
+  <circle cx="6.6" cy="4.6" r="2.2" fill="#2bb38f"/>
+  <circle cx="13.4" cy="4.6" r="2.2" fill="#2bb38f"/>
+</svg></svg>
+<svg x="560" y="150" width="16" height="16" viewBox="0 0 24 24" opacity="0.6" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <ellipse cx="10" cy="10" rx="7" ry="8" fill="#7ee2b8"/>
+  <circle cx="10" cy="7.5" r="2.6" fill="#2bb38f"/>
+  <circle cx="6.6" cy="4.6" r="2.2" fill="#2bb38f"/>
+  <circle cx="13.4" cy="4.6" r="2.2" fill="#2bb38f"/>
+</svg></svg>
+<svg x="860" y="90" width="26" height="26" viewBox="0 0 24 24" opacity="0.7" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <ellipse cx="10" cy="10" rx="7" ry="8" fill="#7ee2b8"/>
+  <circle cx="10" cy="7.5" r="2.6" fill="#2bb38f"/>
+  <circle cx="6.6" cy="4.6" r="2.2" fill="#2bb38f"/>
+  <circle cx="13.4" cy="4.6" r="2.2" fill="#2bb38f"/>
+</svg></svg>
+<svg x="700" y="360" width="18" height="18" viewBox="0 0 24 24" opacity="0.55" overflow="visible"><svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <ellipse cx="10" cy="10" rx="7" ry="8" fill="#7ee2b8"/>
+  <circle cx="10" cy="7.5" r="2.6" fill="#2bb38f"/>
+  <circle cx="6.6" cy="4.6" r="2.2" fill="#2bb38f"/>
+  <circle cx="13.4" cy="4.6" r="2.2" fill="#2bb38f"/>
+</svg></svg>
+<text x="960" y="526" text-anchor="end" font-size="11" fill="#75948a">薄荷 · 猫娘茶会 · 0928OYX · CC BY-NC-SA 4.0 · 免费皮肤</text>
+</svg>
