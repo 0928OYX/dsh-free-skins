@@ -6,7 +6,7 @@ gh auth status | Out-Null
 if ($LASTEXITCODE -ne 0) { throw '未登录 GitHub。请先运行: gh auth login' }
 
 # 1) create the public repo and push the local main branch
-$repo = '0928OYX/dsh-free-skins'
+$repo = '0928OYX/dash-free-skins-Owner-0928OYX'
 gh repo view $repo --json nameWithOwner 2>$null | Out-Null
 if ($LASTEXITCODE -ne 0) {
   gh repo create $repo --public --source . --remote origin --push --description 'DSH 界面皮肤插件：7 款原创免费皮肤 + 皮肤画廊 + 一键应用免重启 + 自定义对话区背景（CC BY-NC-SA 4.0）'

@@ -34,13 +34,13 @@
 对你的 dsh 说：
 
 ```text
-安装一下这个皮肤插件：https://github.com/0928OYX/dsh-free-skins
+安装一下这个皮肤插件：https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
 ```
 
 ### 手动部署（推荐）
 
 ```sh
-git clone https://github.com/0928OYX/dsh-free-skins
+git clone https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
 cd dsh-free-skins
 node scripts/deploy.mjs desktop     # 默认部署到 desktop profile
 ```
@@ -69,5 +69,5 @@ node scripts/generate-previews.mjs    # 重新生成 preview/*.svg 宣传图
 
 ## 📬 反馈
 
-皮肤体验问题或建议请在 [Issues](https://github.com/0928OYX/dsh-free-skins/issues) 提出。
+皮肤体验问题或建议请在 [Issues](https://github.com/0928OYX/dash-free-skins-Owner-0928OYX/issues) 提出。
 

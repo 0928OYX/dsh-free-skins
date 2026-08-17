@@ -14,7 +14,7 @@ DeepSeek Harness 界面皮肤插件首个公开版本 —— **人人有免费�
 ## 📦 安装
 
 ```sh
-git clone https://github.com/0928OYX/dsh-free-skins
+git clone https://github.com/0928OYX/dash-free-skins-Owner-0928OYX
 cd dsh-free-skins
 node scripts/deploy.mjs desktop
 ```
