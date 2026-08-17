@@ -24,6 +24,6 @@ jobs:
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/dsh-free-skins-v1.0.0.zip
+          files: dist/dsh-free-skins-${{ github.ref_name }}.zip
           body_path: docs/RELEASE-NOTES.md
           name: dsh-free-skins ${{ github.ref_name }}
