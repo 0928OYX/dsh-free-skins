@@ -67,6 +67,15 @@ node scripts/generate-previews.mjs    # 重新生成 preview/*.svg 宣传图
 - 守岸人皮肤的设计灵感来自游戏《鸣潮》（库洛游戏）的角色「守岸人」；本仓库**不内置任何第三方角色形象、宠物形象或图片素材**，角色版权归原权利方所有。
 - 皮肤工程思路参考 [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui)（致谢）。
 
+## 🧑‍💻 给开发者的启发
+
+这套皮肤系统特意做得**极简可扩展**，欢迎 fork、借鉴与二次创作：
+
+- **皮肤 = 一个文件**：每个皮肤就是一个 `skins/<id>/definition.mjs`（配色、背景、角落装饰、粒子动画全声明式），运行 `node scripts/generate-skins.mjs` 即生成完整皮肤包（lib/、skin.json、NOTICE）。
+- **零构建依赖**：画廊插件 `skin-gallery/lib/client.js` 是手写 bundle，无任何构建链，可直接阅读与修改。
+- **可插拔接入**：通过 DSH 皮肤中心注册（`@linxin666/dsh-client-ui-skin-*` 注册表 + managed 区段互斥），不做任何侵入式改动。
+- 想贡献？欢迎提 [Issues](https://github.com/0928OYX/dash-free-skins-Owner-0928OYX/issues) 或 PR。
+
 ## 📬 反馈
 
 皮肤体验问题或建议请在 [Issues](https://github.com/0928OYX/dash-free-skins-Owner-0928OYX/issues) 提出。
