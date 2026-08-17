@@ -863,6 +863,59 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 				probe.src = dataUrl;
 			});
 		}
+		//#region src/client/pro-suite.ts
+		/**
+		 * Professional-suite helpers: one-click config backup/restore (skin
+		 * opacity, crop, aspect and the chat wallpaper image) and a lightweight
+		 * update check against the project's latest GitHub release.
+		 */
+		const GALLERY_REPO = "0928OYX/dsh-free-skins";
+		const BACKUP_KEYS = [CHAT_BG_CROP_KEY, CHAT_BG_ASPECT_KEY, SKIN_OPACITY_KEY];
+		const DISMISSED_RELEASE_KEY = "dsh.skinGallery.dismissedRelease";
+		let latestRelease = null;
+		function readDismissedRelease() {
+			try { return window.localStorage.getItem(DISMISSED_RELEASE_KEY); } catch { return null; }
+		}
+		function dismissLatestRelease() {
+			if (latestRelease !== null) { try { window.localStorage.setItem(DISMISSED_RELEASE_KEY, latestRelease); } catch { /* ignore */ } }
+		}
+		function updateAvailable() {
+			return latestRelease !== null && latestRelease !== readDismissedRelease();
+		}
+		/** Export every gallery setting (localStorage + the chat wallpaper image) as a JSON file. */
+		async function exportGalleryConfig() {
+			const data = { app: "dsh-free-skins", version: 1, exportedAt: new Date().toISOString(), storage: {} };
+			for (const key of BACKUP_KEYS) {
+				try {
+					const value = window.localStorage.getItem(key);
+					if (value !== null) data.storage[key] = value;
+				} catch { /* ignore */ }
+			}
+			try { data.chatBgImage = await chatBgIdbGet(); } catch { data.chatBgImage = null; }
+			const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+			const url = URL.createObjectURL(blob);
+			const link = document.createElement("a");
+			link.href = url;
+			link.download = "dsh-free-skins-backup-" + new Date().toISOString().slice(0, 10) + ".json";
+			document.body.append(link);
+			link.click();
+			link.remove();
+			window.setTimeout(() => URL.revokeObjectURL(url), 4000);
+		}
+		/** Restore a backup file: localStorage settings first, then the chat wallpaper image. */
+		async function importGalleryConfig(file, bg) {
+			const text = await file.text();
+			const data = JSON.parse(text);
+			if (data === null || typeof data !== "object" || typeof data.storage !== "object") throw new Error("invalid-backup");
+			for (const [key, value] of Object.entries(data.storage)) {
+				try { window.localStorage.setItem(key, String(value)); } catch { /* ignore */ }
+			}
+			if (typeof data.chatBgImage === "string" && data.chatBgImage.startsWith("data:image/") && bg !== undefined && bg !== null) {
+				bg.setImage(data.chatBgImage);
+			}
+		}
+		//#endregion
+
 		/**
 		 * Owns the custom conversation background layer (its opacity follows the
 		 * shared --dsh-skin-opacity: 100% = original image, 0% = invisible).
@@ -1207,6 +1260,8 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 			const fileRef = react.useRef(null);
 			const [cropOpen, setCropOpen] = react.useState(false);
 			const [pendingImage, setPendingImage] = react.useState(null);
+			const [proMsg, setProMsg] = react.useState(null);
+			const backupFileRef = react.useRef(null);
 			const mounted = react.useRef(false);
 			react.useEffect(() => {
 				mounted.current = true;
@@ -1239,6 +1294,10 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 			}, [bg]);
 
 			const [, forceTick] = react.useReducer((x) => x + 1, 0);
+			react.useEffect(() => {
+				const timer = window.setTimeout(() => forceTick(), 1500);
+				return () => window.clearTimeout(timer);
+			}, []);
 			react.useEffect(() => {
 				const sync = () => forceTick();
 				controller.onChange = sync;
@@ -1370,6 +1429,20 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 				setBgMsg(crop === null ? t("cropReset") : t("cropApplied"));
 			};
 
+			const onExportCfg = () => {
+				exportGalleryConfig().then(() => setProMsg(t("cfgExported"))).catch(() => setProMsg(t("cfgImportError")));
+			};
+			const onImportCfg = (event) => {
+				const file = event.target.files?.[0];
+				event.target.value = "";
+				if (file === undefined) return;
+				importGalleryConfig(file, bg).then(() => {
+					setProMsg(t("cfgImported"));
+					setBgActive((bg?.image ?? null) !== null);
+				}).catch(() => setProMsg(t("cfgImportError")));
+			};
+			const onDismissUpdate = () => { dismissLatestRelease(); setProMsg(t("updateDismissed")); };
+
 			const cards = CATALOG.slice().sort((a, b) => a.order - b.order).map((entry) => {
 				const active = entry.id === effective;
 				const pending = pendingId !== null && entry.id === pendingId && pendingId !== effective;
@@ -1472,6 +1545,26 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 						className: "sgBgCard",
 						children: [
 							els("div", { className: "sgBgHead", children: [
+								el("span", { className: "sgBgTitle", children: t("proTitle") }),
+								el("p", { className: "sgBgHint", children: t("proHint") })
+							]}),
+							updateAvailable() && els("div", { className: "sgBgRow", children: [
+								el("span", { className: "sgBgLabel", children: t("updateAvailable").replace("{v}", latestRelease) }),
+								el("a", { className: "sgBtn sgBgBtn", href: "https://github.com/" + GALLERY_REPO + "/releases/latest", target: "_blank", rel: "noreferrer", children: t("viewUpdate") }),
+								el("button", { type: "button", className: "sgBtn sgBgBtn", onClick: onDismissUpdate, children: t("dismissUpdate") })
+							]}),
+							els("div", { className: "sgBgRow", children: [
+								el("button", { type: "button", className: "sgBtn sgBgBtn", onClick: onExportCfg, children: t("exportCfg") }),
+								el("button", { type: "button", className: "sgBtn sgBgBtn", onClick: () => backupFileRef.current?.click(), children: t("importCfg") }),
+								el("input", { ref: backupFileRef, type: "file", accept: "application/json,.json", style: { display: "none" }, onChange: onImportCfg })
+							]}),
+							proMsg !== null && el("p", { className: "sgBgMsg", children: proMsg })
+						]
+					}),
+					els("div", {
+						className: "sgBgCard",
+						children: [
+							els("div", { className: "sgBgHead", children: [
 								el("span", { className: "sgBgTitle", children: t("chatBgTitle") }),
 								el("p", { className: "sgBgHint", children: t("chatBgIntro") })
 							]}),
@@ -1519,6 +1612,17 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 			skinOpacityTitle: "皮肤不透明度",
 			skinOpacityHint: "调节当前选中皮肤的整体不透明度（背景、装饰与对话区壁纸联动）：100% 为原图，50% 为半透明，0% 为全透明，每一档实时生效。",
 			skinOpacity: "不透明度",
+			proTitle: "备份与更新",
+			proHint: "一键导出/导入全部皮肤配置（皮肤不透明度、裁剪与对话区壁纸），自动检测插件新版本。",
+			exportCfg: "导出配置",
+			importCfg: "导入配置",
+			cfgExported: "配置已导出（含对话区壁纸）",
+			cfgImported: "配置已导入并恢复",
+			cfgImportError: "配置文件无效或读取失败",
+			updateAvailable: "发现新版本 {v}",
+			viewUpdate: "查看更新",
+			dismissUpdate: "忽略此版本",
+			updateDismissed: "已忽略该版本",
 			bgNotImage: "请选择图片文件",
 			bgReadError: "图片读取失败",
 			bgSaved: "已设置为对话区背景（自动保存，随时可替换）",
@@ -1558,6 +1662,17 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 			skinOpacityTitle: "Skin Opacity",
 			skinOpacityHint: "Adjust the overall opacity of the currently selected skin (backdrop, decorations and the conversation wallpaper together): 100% = original, 50% = half transparent, 0% = fully transparent — every step takes effect live.",
 			skinOpacity: "Opacity",
+			proTitle: "Backup & Updates",
+			proHint: "Export/import all gallery settings (skin opacity, crop and chat wallpaper) in one click; auto-detects plugin updates.",
+			exportCfg: "Export config",
+			importCfg: "Import config",
+			cfgExported: "Config exported (chat wallpaper included)",
+			cfgImported: "Config imported and restored",
+			cfgImportError: "Invalid or unreadable backup file",
+			updateAvailable: "New version available: {v}",
+			viewUpdate: "View update",
+			dismissUpdate: "Dismiss",
+			updateDismissed: "Version dismissed",
 			bgNotImage: "Please choose an image file",
 			bgReadError: "Failed to read the image",
 			bgSaved: "Set as conversation background (auto-saved; replace anytime)",
@@ -1708,6 +1823,16 @@ body[data-dsh-skin-gallery] .sgCropHint{color:var(--dsw-alias-label-tertiary);fo
 				bgController.load();
 				return () => bgController.dispose();
 			}, "ui-skin-gallery: chat background");
+			ctx.effect(() => {
+				let alive = true;
+				fetch("https://api.github.com/repos/" + GALLERY_REPO + "/releases/latest", { headers: { accept: "application/vnd.github+json" } })
+					.then((response) => response.json())
+					.then((data) => {
+						if (alive && typeof data?.tag_name === "string") latestRelease = data.tag_name;
+					})
+					.catch(() => {});
+				return () => { alive = false; };
+			}, "ui-skin-gallery: update check");
 			ctx.effect(() => {
 				// The desktop host does not hot-reload the home patch, so after any
 				// apply the served boot graph still lacks the chosen skin. Live-apply
