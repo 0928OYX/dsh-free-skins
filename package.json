@@ -8,6 +8,7 @@
     "generate": "node scripts/generate-skins.mjs",
     "previews": "node scripts/generate-previews.mjs",
     "previews:theme": "node scripts/generate-theme-previews.mjs",
+    "previews:session": "node scripts/generate-session-preview.mjs",
     "smoke:skin": "node scripts/smoke-skin.mjs",
     "smoke:gallery": "node scripts/smoke-gallery.mjs",
     "check:css": "node scripts/check-css.mjs",
