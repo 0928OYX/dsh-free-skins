@@ -1,4 +1,4 @@
-# 🎨 dsh-free-skins v1.0.0 —— 人人有免费皮肤，自定义皮肤界面
+# 🎨 dsh-free-skins —— 人人有免费皮肤，自定义皮肤界面
 
 DeepSeek Harness 界面皮肤插件首个公开版本，由 **0928OYX** 原创制作。
 
