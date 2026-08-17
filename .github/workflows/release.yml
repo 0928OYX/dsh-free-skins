@@ -1,0 +1,29 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build release archive
+        run: |
+          mkdir -p dist
+          zip -r dist/dsh-free-skins-v1.0.0.zip \
+            README.md LICENSE NOTICE package.json .gitignore \
+            docs preview scripts skin-gallery skins
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/dsh-free-skins-v1.0.0.zip
+          body_path: docs/RELEASE-NOTES-v1.0.0.md
+          name: dsh-free-skins v1.0.0
