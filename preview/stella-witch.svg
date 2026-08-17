@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0ecff"/>
+      <stop offset="1" stop-color="#140e2e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="270" rx="24" fill="url(#bg)"/>
+  <rect width="480" height="270" rx="24" fill="url(#glow)"/>
+  <g transform="translate(240 96)">
+    <g transform="translate(-48 -48)"><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs><linearGradient id="stpr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#241b4d"/><stop offset="1" stop-color="#0e0a24"/></linearGradient></defs>
+  <rect width="96" height="96" rx="20" fill="url(#stpr)"/>
+  <path d="M48 14c-14 0-24 10-24 24 0 12 8 22 20 24-3-4-5-9-5-14 0-14 10-24 24-24-3-8-8-10-15-10z" fill="#ffd76a"/>
+  <path d="M72 22l2.2 6.3 6.3 2.2-6.3 2.2-2.2 6.3-2.2-6.3-6.3-2.2 6.3-2.2z" fill="#9a8bff"/>
+  <circle cx="22" cy="24" r="1.6" fill="#fff"/><circle cx="78" cy="40" r="1.3" fill="#ffd76a"/><circle cx="18" cy="60" r="1.4" fill="#9a8bff"/>
+</svg></g>
+  </g>
+  <text x="240" y="196" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-shadow="0 2px 8px rgba(0,0,0,.45)">星语 · 星尘魔女</text>
+  <text x="240" y="222" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="15" fill="#ffffff" opacity="0.85">Stella Witch</text>
+  <text x="240" y="252" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="12" fill="#ffffff" opacity="0.75">0928OYX · CC BY-NC-SA 4.0 · 免费皮肤</text>
+</svg>

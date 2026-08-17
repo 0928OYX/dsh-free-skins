@@ -1,0 +1,31 @@
+{
+  "name": "@dsh-external/dsh-client-ui-skin-gold-alchemist",
+  "version": "0.1.0",
+  "description": "琥珀 · 炼金少女 (Gold Alchemist) gallery skin for the dsh web GUI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "files": [
+    "lib",
+    "skin.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}

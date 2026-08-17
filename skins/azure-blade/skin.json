@@ -1,0 +1,24 @@
+{
+  "id": "azure-blade",
+  "name": "凛霜 · 苍雪剑姬",
+  "nameEn": "Azure Blade",
+  "author": "0928OYX",
+  "tagline": "雪原晴空 · 霜花玻璃 · 飘雪动画",
+  "description": "原创剑士少女皮肤：冰蓝与银白界面，雪山雪原背景与飘雪动画，霜花点缀角标，玻璃质感的按钮与面板。",
+  "tags": [
+    "anime",
+    "blade",
+    "snow",
+    "ice",
+    "mountains",
+    "frost"
+  ],
+  "accent": "#4ea8de",
+  "bodyAttr": "data-dsh-azure-blade",
+  "package": "@dsh-external/dsh-client-ui-skin-azure-blade",
+  "wiring": {
+    "id": "ui-skin-azure-blade",
+    "bundleWired": false
+  },
+  "order": 5
+}

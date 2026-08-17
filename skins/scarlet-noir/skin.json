@@ -1,0 +1,24 @@
+{
+  "id": "scarlet-noir",
+  "name": "绯月 · 蔷薇千金",
+  "nameEn": "Scarlet Noir",
+  "author": "0928OYX",
+  "tagline": "哥特蔷薇庄园 · 绯红黑金 · 烛火微光",
+  "description": "原创哥特千金皮肤：绯红、墨黑与描金构成界面，庄园、烛台与血月背景，玫瑰花瓣飘落，蕾丝质感的边框装饰。",
+  "tags": [
+    "anime",
+    "gothic",
+    "rose",
+    "scarlet",
+    "mansion",
+    "candle"
+  ],
+  "accent": "#c2284b",
+  "bodyAttr": "data-dsh-scarlet-noir",
+  "package": "@dsh-external/dsh-client-ui-skin-scarlet-noir",
+  "wiring": {
+    "id": "ui-skin-scarlet-noir",
+    "bundleWired": false
+  },
+  "order": 6
+}

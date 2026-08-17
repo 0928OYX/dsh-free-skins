@@ -1,0 +1,25 @@
+{
+  "id": "shorekeeper",
+  "name": "守岸人",
+  "nameEn": "Shorekeeper",
+  "author": "0928OYX",
+  "tagline": "鸣潮 · 守岸人 · 海雾蓝紫 · 晶光微漾",
+  "description": "以《鸣潮》守岸人为灵感的海岸主题原创皮肤：海雾蓝白与紫晶色调铺满界面，浪纹与晶光点缀面板，冰晶缓缓飘落，左侧导航融合同款海岸蓝紫渐变，整体神秘而超然。",
+  "tags": [
+    "wuwa",
+    "shorekeeper",
+    "ocean",
+    "seaside",
+    "blue",
+    "purple",
+    "crystal"
+  ],
+  "accent": "#5f7fe0",
+  "bodyAttr": "data-dsh-shorekeeper",
+  "package": "@dsh-external/dsh-client-ui-skin-shorekeeper",
+  "wiring": {
+    "id": "ui-skin-shorekeeper",
+    "bundleWired": false
+  },
+  "order": 9
+}

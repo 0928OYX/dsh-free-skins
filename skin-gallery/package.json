@@ -1,0 +1,34 @@
+{
+  "name": "@dsh-external/dsh-client-ui-skin-gallery",
+  "description": "界面皮肤画廊：在 DSH Web GUI 设置栏「界面皮肤」栏目中管理 DeepSeek Harness 默认皮肤与本仓库原创免费皮肤，支持试穿、一键应用（无需重启）与自定义对话区背景",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}

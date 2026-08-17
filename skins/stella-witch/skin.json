@@ -1,0 +1,24 @@
+{
+  "id": "stella-witch",
+  "name": "星语 · 星尘魔女",
+  "nameEn": "Stella Witch",
+  "author": "0928OYX",
+  "tagline": "月夜天文台 · 星尘与月牙 · 紫罗兰渐变",
+  "description": "原创魔法少女皮肤：深紫星夜与金色月牙构成背景，星尘缓缓飘浮，水晶质感按钮与紫罗兰渐变贯穿整个界面。",
+  "tags": [
+    "anime",
+    "witch",
+    "stars",
+    "violet",
+    "observatory",
+    "magic"
+  ],
+  "accent": "#7c5cff",
+  "bodyAttr": "data-dsh-stella-witch",
+  "package": "@dsh-external/dsh-client-ui-skin-stella-witch",
+  "wiring": {
+    "id": "ui-skin-stella-witch",
+    "bundleWired": false
+  },
+  "order": 4
+}

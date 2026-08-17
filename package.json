@@ -1,0 +1,21 @@
+{
+  "name": "dsh-free-skins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DeepSeek Harness 界面皮肤插件：原创免费皮肤 + 皮肤画廊 + 自定义对话区背景",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-skins.mjs",
+    "previews": "node scripts/generate-previews.mjs",
+    "smoke:skin": "node scripts/smoke-skin.mjs",
+    "smoke:gallery": "node scripts/smoke-gallery.mjs",
+    "check:css": "node scripts/check-css.mjs",
+    "deploy": "node scripts/deploy.mjs desktop"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "license": "CC-BY-NC-SA-4.0"
+}

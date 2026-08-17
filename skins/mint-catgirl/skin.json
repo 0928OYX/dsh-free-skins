@@ -1,0 +1,24 @@
+{
+  "id": "mint-catgirl",
+  "name": "薄荷 · 猫娘茶会",
+  "nameEn": "Mint Catgirl",
+  "author": "0928OYX",
+  "tagline": "奶油薄荷 · 肉垫与铃铛 · 午后茶会",
+  "description": "原创猫娘角色皮肤：薄荷绿与奶油白界面，花园茶会背景，猫爪肉垫缓缓飘落，铃铛与星光点缀角标，按钮圆润柔软。",
+  "tags": [
+    "anime",
+    "catgirl",
+    "mint",
+    "tea",
+    "garden",
+    "paws"
+  ],
+  "accent": "#2bb38f",
+  "bodyAttr": "data-dsh-mint-catgirl",
+  "package": "@dsh-external/dsh-client-ui-skin-mint-catgirl",
+  "wiring": {
+    "id": "ui-skin-mint-catgirl",
+    "bundleWired": false
+  },
+  "order": 7
+}

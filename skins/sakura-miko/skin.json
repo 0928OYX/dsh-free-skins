@@ -1,0 +1,24 @@
+{
+  "id": "sakura-miko",
+  "name": "樱歌 · 神社巫女",
+  "nameEn": "Sakura Miko",
+  "author": "0928OYX",
+  "tagline": "狐耳巫女 · 垂樱神社 · 精细花瓣飘落",
+  "description": "八重神子风的原创狐耳巫女角色皮肤：樱粉与朱红铺满界面，垂樱、鸟居与山丘构成背景，带叶脉的精细樱花瓣与星光在面板间缓缓飘落，按钮与状态色全部重新配音。",
+  "tags": [
+    "anime",
+    "miko",
+    "sakura",
+    "pink",
+    "shrine",
+    "petals"
+  ],
+  "accent": "#e8567d",
+  "bodyAttr": "data-dsh-sakura-miko",
+  "package": "@dsh-external/dsh-client-ui-skin-sakura-miko",
+  "wiring": {
+    "id": "ui-skin-sakura-miko",
+    "bundleWired": false
+  },
+  "order": 3
+}
